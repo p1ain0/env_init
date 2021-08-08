@@ -1,0 +1,23 @@
+[...]
+[aliases]
+# some windbg aliases
+dps = dereference
+dq = hexdump qword
+dd = hexdump dword
+dw = hexdump word
+dc = hexdump byte
+dt = pcustom
+bl = info breakpoints
+bp = break
+be = enable breakpoints
+bd = disable breakpoints
+bc = delete breakpoints
+tbp = tbreak
+tba = thbreak
+pa = advance
+ptc = finish
+t = stepi
+p = nexti
+g = gef run
+uf = disassemble
+
