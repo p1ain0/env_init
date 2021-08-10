@@ -21,4 +21,4 @@ cp ./gdbinit ~/.gdbinit
 
 cp ./gef.rc ~/.gef.rc
 
-
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
